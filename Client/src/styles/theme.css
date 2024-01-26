@@ -1,0 +1,27 @@
+/* 폰트 */
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+/* 브랜드 컬러 */
+:root {
+  --brand-color: #4f8235;
+  --brand-sub-color: #9bbd8a;
+  --font-gray: #888888;
+  --font-lightgray: #d9d9d9;
+  --font-red: #ff0000;
+  --font-white: #ffffff;
+  --font-black: #000000;
+  --box-gray: #ebebeb;
+
+  /* 닉네임 배경 색상 */
+  --nickname-brown: #f4eeee;
+  --nickname-orange: #faebdd;
+  --nickname-yellow: #fbf3db;
+  --nickname-green: #edf3ec;
+  --nickname-blue: #e7f3f8;
+  --nickname-purple: #f6f3f9;
+  --nickname-pink: #faf1f5;
+  --nickname-red: #fdebec;
+}
