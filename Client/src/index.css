@@ -1,0 +1,10 @@
+@import url(./styles/reset.css);
+@import url(./styles/theme.css);
+@import url(./styles/a11yHidden.css);
+
+/* 레이아웃 */
+#root {
+  width: 100%;
+  height: 100vh;
+  min-width: 360px;
+}
