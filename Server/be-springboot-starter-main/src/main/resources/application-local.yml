@@ -1,0 +1,25 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    # MySQL 설정
+    url: jdbc:mysql://localhost:3306/meetu?serverTimezone=Asia/Seoul
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql=true:
+    hibernate:
+      ddl-auto: create  # (1) 스키마 자동 생성
+    show-sql: true      # (2) SQL 쿼리 출력
+
+
+jwt:
+  key: 462c1721227104576783291531159618522860868474917482271499971234567890123456789012345678901234567890123456789012345678901234567890
+  access-token-expiration-minutes: 40
+  refresh-token-expiration-minutes: 420
+
+
